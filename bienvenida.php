@@ -16,19 +16,19 @@ $hora_actual = date("H:i:s");
 $fecha_actual = date("d/m/Y");
 
 
-$mensaje_bienvenida = "Nos alegra tenerte de vuelta en el sistema. Tu acceso ha sido registrado.";
+$mensaje_bienvenida = "Tu acceso se ha registrado correctamente.";
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido | DWEC RA4. AEE</title>
+    <title>Bienvenido</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="contenedor">
-        <h1>¡Bienvenido al Sistema!</h1>
+        <h1>¡Bienvenido!</h1>
         
         <div class="tarjeta bienvenida">
 

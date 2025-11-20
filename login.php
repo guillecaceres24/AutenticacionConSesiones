@@ -6,7 +6,7 @@ session_start();
 $usuarios = [
     "admin" => "1234",
     "usuario" => "abcd",
-    "carlos" => "profesor"
+    "guillermo" => "alumno"
 ];
 
 $error_mensaje = "";
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceso al Sistema | DWEC RA4. AEE</title>
+    <title>Acceso al Sistema</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
